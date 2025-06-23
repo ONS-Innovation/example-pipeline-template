@@ -52,7 +52,7 @@ spec:
       name: Publish
       action: publish:github
       input:
-        repoUrl: github.com?owner=spotify-portal-public-demo&repo=${{ parameters.name }}
+        repoUrl: github.com?owner=spotify-portal-public-demo&repo=${{ parameters.name }}-system
         description: ${{ parameters.description }}
         repoVisibility: public
         defaultBranch: main
