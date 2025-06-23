@@ -3,6 +3,8 @@ kind: System
 metadata:
   name: ${{ values.name }}
   description: ${{ values.description | dump }}
+  tags:
+    - pipeline
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ${{ values.project_slug }}
