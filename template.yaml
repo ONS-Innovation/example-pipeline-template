@@ -47,13 +47,13 @@ spec:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
           owner: ${{ parameters.owner }}
-          project_slug: spotify-portal-public-demo/${{ parameters.name }}
+          project_slug: ONS-Innovation/${{ parameters.name }}
 
     - id: publish
       name: Publish
       action: publish:github
       input:
-        repoUrl: github.com?owner=spotify-portal-public-demo&repo=${{ parameters.name }}
+        repoUrl: github.com?owner=ONS-Innovation&repo=${{ parameters.name }}
         description: ${{ parameters.description }}
         repoVisibility: public
         defaultBranch: main
