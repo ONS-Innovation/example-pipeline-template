@@ -1,11 +1,11 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: example-system-template
-  title: Create System
-  description: Create a new System with example documentation
+  name: example-pipeline-template
+  title: Create Pipeline
+  description: Create a new Pipeline with example documentation
   tags:
-    - system
+    - pipeline
 spec:
   owner: group:github
   type: system
@@ -20,16 +20,16 @@ spec:
         name:
           title: Name
           type: string
-          description: The unique name of this system
+          description: The unique name of this pipeline
           ui:field: EntityNamePicker
         description:
           title: Description
           type: string
-          description: Description of this system
+          description: Description of this pipeline
         owner:
           title: Owner
           type: string
-          description: Owner of this system
+          description: Owner of this pipeline
           ui:field: OwnerPicker
           ui:options:
             catalogFilter:
