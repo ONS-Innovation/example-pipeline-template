@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ${{ values.project_slug }}
   links:
-      - url: https://codespaces.new/${{ values.repository_owner }}/${{ values.repository_name }}
+    - url: https://codespaces.new/${{ values.repository_owner }}/${{ values.repository_name }}
       title: Open Development Environment 
       icon: scaffolder
     - url: https://officenationalstatistics.sharepoint.com/sites/ONS_DDaT_Communities/SitePages/SE%20-%20Principles,%20Policies,%20Guidelines%20&%20more.aspx?csf=1&web=1&share=EQI8qpmdcZ1MvVA__6yKAtgBkWCMhU-pty-SBeAs1KVAEQ&e=jlgchY
