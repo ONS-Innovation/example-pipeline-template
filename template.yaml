@@ -58,6 +58,7 @@ spec:
         repoVisibility: public
         defaultBranch: main
         protectEnforceAdmins: false
+        access: ${{ user.entity.metadata.annotations['github.com/user-login'] }}
 
     - id: register
       name: Register
