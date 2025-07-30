@@ -7,8 +7,8 @@ metadata:
   tags:
     - pipeline
 spec:
-  owner: group:github
-  type: system
+  owner: "group:default/spotify-backstage-trial-team"
+  type: template
 
   parameters:
     - title: About
